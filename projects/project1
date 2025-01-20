@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project One - My Slick Portfolio</title>
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+  />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="../index.html">MyPortfolio</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../index.html#top-projects">Projects</a></li>
+      <li><a href="../index.html#about">About Me</a></li>
+      <li><a href="../index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PROJECT DETAILS SECTION -->
+  <section class="project-details" data-aos="fade-up">
+    <h1>Project One</h1>
+    <p>
+      Here is where you can dive deeper into the specifics of your 
+      project, describe your motivation, the technologies used, and 
+      the outcome or notable features. Add screenshots or a gallery 
+      to give a visual demonstration of your work.
+    </p>
+
+    <!-- Example screenshot or video -->
+    <img 
+      src="https://via.placeholder.com/800x400.png?text=Project+1+Screenshot" 
+      alt="Project One Screenshot" 
+      class="project-screenshot"
+    />
+
+    <!-- Button leading to code repository -->
+    <div class="project-code-btn">
+      <a 
+        href="https://github.com/your-username/project-one" 
+        target="_blank" 
+        class="btn"
+      >
+        View Code on GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name. All Rights Reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Main JS -->
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
