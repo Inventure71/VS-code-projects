@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Slick Portfolio</title>
+  <!-- AOS CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css" 
+  />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html">MyPortfolio</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#top-projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero-section">
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Slick, smooth, and full of awesome projects!</p>
+      <a href="#top-projects" class="btn">Explore</a>
+    </div>
+  </header>
+
+  <!-- TOP PROJECTS SECTION -->
+  <section id="top-projects" class="projects-section">
+    <h2 class="section-title" data-aos="fade-up">Top 3 Projects</h2>
+    <div class="projects-container">
+      <!-- Project Card 1 -->
+      <div class="project-card" data-aos="zoom-in">
+        <img src="https://via.placeholder.com/400x200.png?text=Project+1" alt="Project 1" />
+        <h3>Project One</h3>
+        <p class="project-desc">
+          A short description of your stellar project. Make it intriguing!
+        </p>
+        <a href="projects/project1.html" class="btn">View Details</a>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://via.placeholder.com/400x200.png?text=Project+2" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p class="project-desc">
+          Another amazing project that showcases your skills.
+        </p>
+        <a href="projects/project2.html" class="btn">View Details</a>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://via.placeholder.com/400x200.png?text=Project+3" alt="Project 3" />
+        <h3>Project Three</h3>
+        <p class="project-desc">
+          Last but not least: check out this super cool project.
+        </p>
+        <a href="projects/project3.html" class="btn">View Details</a>
+      </div>
+    </div>
+    <!-- Link to full projects list -->
+    <div class="more-projects-link" data-aos="fade-up">
+      <a href="projects.html" class="btn btn-dark">See All Projects</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-container" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>
+        Brief introduction about yourself. Highlight your skills,
+        passions, and background. Keep it friendly and professional!
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container" data-aos="fade-up">
+      <h2>Contact</h2>
+      <p>Interested in collaborating? Let's get in touch!</p>
+      <a href="mailto:your.email@example.com" class="btn">Email Me</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Your Name. All Rights Reserved.</p>
+  </footer>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
